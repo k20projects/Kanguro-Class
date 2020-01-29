@@ -1,0 +1,389 @@
+/*FONTS
+	font-family: 'Montserrat', sans-serif; 
+	font-family: 'Bebas Neue', cursive;
+										*/
+/*COLORS
+	orange:	background-color: rgba(198, 136, 61, 1);
+	black: 24242A;
+	blue: 	background-color: rgb(0, 155, 255);
+;
+												*/										
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: #24252A;
+	font-family: 'Montserrat';
+}
+
+#header_menu{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+
+	background: rgba(38, 45, 53, 0.53);
+	padding: 10px;
+	margin-top: -150px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	width: 1850px;
+	height: 50px;
+
+	border: 2px solid #fff;
+	border-radius: 5px;
+	border-left: none;
+	border-right: none;
+
+	
+	display: flex;
+
+	position: fixed;
+	box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+}
+
+.nav {
+	position: right;
+	display: block;
+
+	padding: 5px;
+	margin: 10px;
+	margin-right: 20px;
+}
+
+.menu li{
+	display: inline-block;
+	margin: auto;
+}	
+
+.menu a {
+	text-decoration: none;
+	color: white; 
+
+	font-size: 15px;
+
+	padding: 8px;
+	transition-duration: 0.6s; 
+
+	font-family: 'Bebas Neue', cursive;
+}
+
+.menu a:hover {
+	color: rgba(198, 136, 61, 1);
+}
+
+.menu_title {
+	font-size: 20px;
+	margin: auto;
+	margin-left: 40px;
+
+	transition-duration: 0.6s;
+}
+
+.menu_title:hover {
+	color: rgba(198, 136, 61, 1);
+	cursor: pointer;
+}
+
+#contact_button {
+	background-color: rgba(239, 161, 72, 0.91);
+	color: black;
+	font-size: 15px;
+	font-family: 'Bebas Neue', cursive;
+
+	padding: auto;	
+	margin: auto;
+	margin-right: 90px;
+	margin-top: 10px;
+
+	height: 33px;
+	width: 70px;
+
+	border: 0px solid;
+	border-radius: 10px;
+
+	cursor: pointer;
+	transition-duration: 0.6s;
+}
+
+#contact_button:hover {
+	background-color: rgb(0, 155, 255);
+}
+		/*MAIN CONTENT 1*/
+
+#main_block_1 {
+	font-family: 'Montserrat' ,sans-serif;
+	color: black;
+	/*display: flex;*/
+
+	margin-top: 200px;
+	margin-bottom: 50px;
+	height: 500px;
+	width: 100%;
+
+	background-color: rgba(239, 161, 72, 0.91);
+
+	border: 6px solid;
+	border-left: none;
+	border-right: none;
+	border-color: rgba(235, 149, 49, 0.2);
+
+	box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+}	
+
+#main_block_1 img{
+	float: left;
+	width: 540px;
+
+	margin-top: -20px;
+	margin-left: 300px;
+}
+
+.main_block_1_title {
+	padding: auto;
+	padding-top: 160px;
+	padding-right: 200px;
+	text-align: center;
+
+	color: black;
+}
+
+#main_block_1 p {
+	text-align: center;
+
+	padding-right: 200px;
+	color: black;
+	font-size: 17px;
+
+	text-decoration: blink;
+}
+
+#main_block_1 > form {
+	text-align: center;
+
+	padding: 10px;
+	padding-right: 200px;
+	margin: auto;
+
+	font-size: 10px;
+}
+
+.contact_button_2 {
+	padding: 30px;
+
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+
+	border: 0px solid;
+	border-radius: 30px;
+
+	background-color: #24252A;
+
+	color: white;
+
+	cursor: pointer;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+	transition-duration: 0.6s;
+}
+
+.contact_button_2:hover {
+	border: 0px solid;
+	border-radius: 30px;
+
+	background-color: rgb(0, 155, 255);
+	
+	color: black;
+}
+
+		#main_block_2 {
+			font-family: 'Montserrat' ,sans-serif;
+			color: black;
+			/*display: flex;*/
+
+			margin: auto;
+
+			height: 500px;
+			width: 100%;
+		}	
+
+		#main_block_2 img{
+			float: right;
+			width: 450px;
+
+			margin-top: auto;
+			margin-right: 350px;
+		}
+
+		.main_block_2_title {
+			padding: auto;
+			padding-top: 160px;
+			padding-left: 200px;
+			text-align: center;
+
+			color: white;
+		}
+
+		#main_block_2 p {
+			text-align: center;
+
+			padding-left: 200px;
+			color: white;
+			font-size: 17px;
+
+			text-decoration: blink;
+		}
+
+				#main_block_3 {
+					font-family: 'Montserrat' ,sans-serif;
+					color: black;
+					/*display: flex;*/
+
+					margin: auto;
+					padding: auto;
+
+					height: 500px;
+					width: 100%;
+
+					background-color: rgba(239, 161, 72, 0.91);
+
+					border: 6px solid;
+					border-left: none;
+					border-right: none;
+					border-color: rgba(235, 149, 49, 0.2);
+
+					box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+				}	
+
+				#main_block_3 img{
+					float: left;
+					width: 500px;
+
+					margin-top: 30px;
+					margin-left: 400px;
+				}
+
+				.main_block_3_title {
+					padding: auto;
+					padding-top: 160px;
+					padding-right: 200px;
+					text-align: center;
+
+					color: black;
+				}
+
+				#main_block_3 p {
+					text-align: center;
+
+					padding-right: 200px;
+					color: black;
+					font-size: 17px;
+
+					text-decoration: blink;
+				}
+
+				/* FOOTER */
+
+footer {
+	height: 400px;
+	width: 100%;
+	background: #212121;
+	box-shadow: 0px 0px 20px 8px rgba(0,0,0,0.75);
+	display: flex;
+	margin-top: 200px;
+}
+	
+	.hr_1 {
+		margin-left: 970px;
+		margin-top: 70px;
+		height: 250px;
+	}
+
+.footer_1 {
+	height: 300px;	
+	width: 200px;
+	margin-left: 170px;
+	margin-top: 85px;
+}
+
+	.footer_1 h1 {
+		color: white;
+	}
+
+	.footer_1 a {
+		margin-top: 20px;
+		margin-left: -30px;
+		padding: 50px;
+		list-style: none;
+		text-decoration: none;
+		color: white;
+	}
+
+.footer_2 {
+	height: 300px;	
+	width: 200px;
+	margin-left: 170px;
+	margin-top: 47px;
+}
+
+	.footer_2 h1 {
+		color: white;
+	}
+
+	.footer_2 a {
+		margin-top: 10px;
+		margin-left: -30px;
+		padding: 50px;
+		list-style: none;
+		text-decoration: none;
+		color: white;
+	}
+
+.footer_3 {
+	color: white;
+	margin-left: -1400px;
+	margin-top: 80px;
+}
+
+.hr_4 {
+	width: 190px;
+}
+
+.login_button {
+	height: 30px;
+	width: 120px;
+	margin-top: 20px;
+	/*margin-left: 40px;*/
+	color: black;
+	font-family: 'Montserrat', sans-serif; 
+	border: 0px solid;
+	border-radius: 5px;
+	opacity: 0.9;
+}
+
+.login_button:hover {
+	opacity: 1;
+	cursor: pointer;
+	box-shadow: 7px 3px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.signup_button {
+	height: 30px;
+	width: 120px;
+	margin-top: 80px;
+	margin-left: -120px;
+	color: black;
+	font-family: 'Montserrat', sans-serif; 
+	border: 0px solid;
+	border-radius: 5px;
+	opacity: 0.9;
+	position: absolute;
+}
+
+.signup_button:hover {
+	opacity: 1;
+	cursor: pointer;
+	box-shadow: 7px 3px 5px 0px rgba(0,0,0,0.75);
+
+}
